@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0100;300;400;500;700;900&display=swap');
 *{
 
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   font-family: "Roboto", serif;
 
 }
 
 section{
-  min-height: 100vh;
+  height: 100vh;
   background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("../image/img.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-
+  
 }
 
 .container{
@@ -84,5 +84,16 @@ nav ul li .active{
   margin-bottom: 50px;
 
 } 
+.article .btn{
+  color: rgb(255, 255, 255);
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 25px;
+  background-color: rgb(241, 80, 72);
+  border-radius: 5px;
+}
+
+
 
 
