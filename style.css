@@ -61,3 +61,11 @@ nav ul li .active{
   background-color: rgb(235, 118, 32);
 }
 
+.article{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  transform: translateY(25vh);
+
+}
+
